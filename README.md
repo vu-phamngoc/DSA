@@ -1,5 +1,5 @@
 - [DSA](./)
-  - [README1](README1.md)
+  - [Tổng hợp lời giải trên PUOJ](README1.md)
   - [ChatGPT](https://chatgpt.com)
   - [Google](https://google.com)
   - [GitHub](https://github.com)
