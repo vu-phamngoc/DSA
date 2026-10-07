@@ -28,9 +28,6 @@ void printCircularList(struct Node* head, int n) {
     for (int i = 0; i < n; i++) {
         printf("%d", tmp->data);
         tmp = tmp->next;
-        if (i < n - 1) {
-            printf(" ");
-        }
     }
 }
 int main() {
