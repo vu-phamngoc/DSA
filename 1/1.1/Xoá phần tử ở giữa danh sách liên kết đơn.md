@@ -32,8 +32,7 @@ struct Node* deleteAfter(struct Node* head, int b) {
 void printList(struct Node* head) {
     struct Node* tmp = head;
     while (tmp != NULL) {
-        printf("%d", tmp->data);
-        if (tmp->next != NULL) printf(" ");
+        printf("%d ", tmp->data);
         tmp = tmp->next;
     }
 }
