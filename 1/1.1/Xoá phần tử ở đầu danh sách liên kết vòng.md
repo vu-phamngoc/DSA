@@ -16,13 +16,13 @@ struct Node* addToFront(struct Node* head, int value) {
         return newNode;
     }
 
-    struct Node* temp = head;
-    while (temp->next != head) {
-        temp = temp->next;
+    struct Node* tmp = head;
+    while (tmp->next != head) {
+        tmp = tmp->next;
     }
 
     newNode->next = head;
-    temp->next = newNode;
+    tmp->next = newNode;
     return newNode;
 }
 
@@ -34,7 +34,7 @@ struct Node* deleteFront(struct Node* head) {
         return NULL;
     }
 
-    struct Node* temp = head;
+    struct Node* tmp = head;
     struct Node* last = head;
     while (last->next != head) {
         last = last->next;
@@ -42,17 +42,17 @@ struct Node* deleteFront(struct Node* head) {
 
     head = head->next;
     last->next = head;
-    free(temp);
+    free(tmp);
     return head;
 }
 
 void printCircularList(struct Node* head, int n) {
     if (head == NULL) return;
 
-    struct Node* current = head;
+    struct Node* tmp = head;
     for (int i = 0; i < n; i++) {
-        printf("%d", current->data);
-        current = current->next;
+        printf("%d", tmp->data);
+        tmp = tmp->next;
         if (i < n - 1) printf(" ");
     }
 }

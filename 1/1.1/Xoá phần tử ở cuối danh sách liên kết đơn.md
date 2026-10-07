@@ -22,22 +22,22 @@ struct Node* deleteEnd(struct Node* head) {
         return NULL;
     }
 
-    struct Node* current = head;
-    while (current->next->next != NULL) {
-        current = current->next;
+    struct Node* tmp = head;
+    while (tmp->next->next != NULL) {
+        tmp = tmp->next;
     }
 
-    free(current->next);
-    current->next = NULL;
+    free(tmp->next);
+    tmp->next = NULL;
     return head;
 }
 
 void printList(struct Node* head) {
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d", current->data);
-        if (current->next != NULL) printf(" ");
-        current = current->next;
+    struct Node* tmp = head;
+    while (tmp != NULL) {
+        printf("%d", tmp->data);
+        if (tmp->next != NULL) printf(" ");
+        tmp = tmp->next;
     }
 }
 

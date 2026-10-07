@@ -13,21 +13,21 @@ struct Node* addToFront(struct Node* head, int value) {
         newNode->next = newNode;
         return newNode;
     } else {
-        struct Node* temp = head;
-        while (temp->next != head) {
-            temp = temp->next;
+        struct Node* tmp = head;
+        while (tmp->next != head) {
+            tmp = tmp->next;
         }
         newNode->next = head;
-        temp->next = newNode;
+        tmp->next = newNode;
         return newNode;
     }
 }
 void printCircularList(struct Node* head, int n) {
     if (head == NULL) return;
-    struct Node* current = head;
+    struct Node* tmp = head;
     for (int i = 0; i < n; i++) {
-        printf("%d", current->data);
-        current = current->next;
+        printf("%d", tmp->data);
+        tmp = tmp->next;
         if (i < n - 1) {
             printf(" ");
         }

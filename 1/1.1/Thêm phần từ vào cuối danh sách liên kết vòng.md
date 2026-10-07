@@ -15,11 +15,11 @@ struct Node* addToEnd(struct Node* head, int value) {
         newNode->next = newNode;
         return newNode;
     }
-    struct Node* temp = head;
-    while (temp->next != head) {
-        temp = temp->next;
+    struct Node* tmp = head;
+    while (tmp->next != head) {
+        tmp = tmp->next;
     }
-    temp->next = newNode;
+    tmp->next = newNode;
     newNode->next = head;
     return head;
 }
@@ -27,10 +27,10 @@ struct Node* addToEnd(struct Node* head, int value) {
 void printCircularList(struct Node* head, int n) {
     if (head == NULL) return;
 
-    struct Node* current = head;
+    struct Node* tmp = head;
     for (int i = 0; i < n; i++) {
-        printf("%d", current->data);
-        current = current->next;
+        printf("%d", tmp->data);
+        tmp = tmp->next;
         if (i < n - 1) printf(" ");
     }
 }

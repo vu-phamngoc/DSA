@@ -23,11 +23,11 @@ struct Node* deleteFront(struct Node* head) {
 }
 
 void printList(struct Node* head) {
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d", current->data);
-        if (current->next != NULL) printf(" ");
-        current = current->next;
+    struct Node* tmp = head;
+    while (tmp != NULL) {
+        printf("%d", tmp->data);
+        if (tmp->next != NULL) printf(" ");
+        tmp = tmp->next;
     }
 }
 

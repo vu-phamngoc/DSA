@@ -17,14 +17,14 @@ struct Node* addAfterOrFront(struct Node* head, int a, int b) {
         return newNode;
     }
 
-    struct Node* current = head;
-    while (current != NULL) {
-        if (current->data == b) {
-            newNode->next = current->next;
-            current->next = newNode;
+    struct Node* tmp = head;
+    while (tmp != NULL) {
+        if (tmp->data == b) {
+            newNode->next = tmp->next;
+            tmp->next = newNode;
             return head;
         }
-        current = current->next;
+        tmp = tmp->next;
     }
 
     newNode->next = head;
@@ -32,11 +32,11 @@ struct Node* addAfterOrFront(struct Node* head, int a, int b) {
 }
 
 void printList(struct Node* head) {
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d", current->data);
-        if (current->next != NULL) printf(" ");
-        current = current->next;
+    struct Node* tmp = head;
+    while (tmp != NULL) {
+        printf("%d", tmp->data);
+        if (tmp->next != NULL) printf(" ");
+        tmp = tmp->next;
     }
 }
 

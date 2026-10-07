@@ -16,25 +16,25 @@ struct Node* addToFront(struct Node* head, int value) {
 }
 
 struct Node* deleteAfter(struct Node* head, int b) {
-    struct Node* current = head;
-    while (current != NULL) {
-        if (current->data == b && current->next != NULL) {
-            struct Node* temp = current->next;
-            current->next = temp->next;
+    struct Node* tmp = head;
+    while (tmp != NULL) {
+        if (tmp->data == b && tmp->next != NULL) {
+            struct Node* temp = tmp->next;
+            tmp->next = temp->next;
             free(temp);
             return head;
         }
-        current = current->next;
+        tmp = tmp->next;
     }
     return head;
 }
 
 void printList(struct Node* head) {
-    struct Node* current = head;
-    while (current != NULL) {
-        printf("%d", current->data);
-        if (current->next != NULL) printf(" ");
-        current = current->next;
+    struct Node* tmp = head;
+    while (tmp != NULL) {
+        printf("%d", tmp->data);
+        if (tmp->next != NULL) printf(" ");
+        tmp = tmp->next;
     }
 }
 

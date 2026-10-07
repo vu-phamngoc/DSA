@@ -17,12 +17,12 @@ struct Node* addToEnd(struct Node* head, int value) {
         return newNode;
     }
 
-    struct Node* temp = head;
-    while (temp->next != NULL) {
-        temp = temp->next;
+    struct Node* tmp = head;
+    while (tmp->next != NULL) {
+        tmp = tmp->next;
     }
 
-    temp->next = newNode;
+    tmp->next = newNode;
     return head;
 }
 
