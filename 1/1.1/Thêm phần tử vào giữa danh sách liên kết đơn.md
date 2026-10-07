@@ -35,7 +35,6 @@ void printList(struct Node* head) {
     struct Node* tmp = head;
     while (tmp != NULL) {
         printf("%d", tmp->data);
-        if (tmp->next != NULL) printf(" ");
         tmp = tmp->next;
     }
 }
