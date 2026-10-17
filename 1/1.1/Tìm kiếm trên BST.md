@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 int n,k;
 int a[100005];
@@ -21,3 +22,4 @@ int main() {
     printf("%d", timkiem(0));
     return 0;
 }
+```
