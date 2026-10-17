@@ -16,19 +16,24 @@
 - [Xoá phần tử ở đầu danh sách liên kết vòng](./1/1.1/Xoá%20phần%20tử%20ở%20đầu%20danh%20sách%20liên%20kết%20vòng.md)
 
 ### Hàng đợi (Stack)
-- [Stack](./1/1.1/
+- [Stack hai](./1/1.1/Stack%20hai)
+- [STACK - Truy vấn ngăn xếp](./1/1.1/STACK%20-%20Truy%20vấn%20ngăn%20xếp)
 ### Hàng đợi (Queue)
 - [Queue](./1/1.1/Queue.md)
 - [QUEUE - Truy vấn với hàng đợi](./1/1.1/QUEUE%20-%20Truy%20vấn%20với%20hàng%20đợi.md)
 
 ### Cây nhị phân tìm kiếm (BST)
-- [Chèn thêm phần tử vào cây BST](./1/1.1/Chèn%20thêm%20phần%20tử%20vào%20cây%20BST.md)
-- [Xoá phần tử trên cây BST](./1/1.1/Xoá%20phần%20tử%20trên%20cây%20BST.md)
-- [Xoá phần tử cây BST trên mảng](./1/1.1/Xoá%20phần%20tử%20cây%20BST%20trên%20mảng.md)
-- [Tìm kiếm trên BST](./1/1.1/Tìm%20kiếm%20trên%20BST.md)
+- [Duyệt cây tiền thứ tự](./1/1.1/Duyệt%20cây%20theo%20tiền%20thứ%20tự.md)
 - [Duyệt trung thứ tự](./1/1.1/Duyệt%20trung%20thứ%20tự.md)
-- [Duyệt cây theo tiền thứ tự](./1/1.1/Duyệt%20cây%20theo%20tiền%20thứ%20tự.md)
 - [Duyệt hậu thứ tự](./1/1.1/Duyệt%20hậu%20thứ%20tự.md)
+
+- [Tìm kiếm trên BST](./1/1.1/Tìm%20kiếm%20trên%20BST.md)
+- [Chèn thêm phần tử vào cây BST](./1/1.1/Chèn%20thêm%20phần%20tử%20vào%20cây%20BST.md)
+- [Xoá phần tử cây BST trên mảng](./1/1.1/Xoá%20phần%20tử%20cây%20BST%20trên%20mảng.md)
+- [Xoá phần tử trên cây BST](./1/1.1/Xoá%20phần%20tử%20trên%20cây%20BST.md)
+
+
+
 
 ### Tìm kiếm và Sắp xếp (Search)
 - [Tìm phần tử trong dãy 1](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%201.md)
