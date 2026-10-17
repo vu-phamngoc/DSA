@@ -27,6 +27,7 @@
 - [Duyệt trung thứ tự](./1/1.1/Duyệt%20trung%20thứ%20tự.md)
 - [Duyệt hậu thứ tự](./1/1.1/Duyệt%20hậu%20thứ%20tự.md)
 
+- [Tìm kiếm nhị phân](./1/1.1/Tìm%20kiếm%20nhị%20phân)
 - [Tìm kiếm trên BST](./1/1.1/Tìm%20kiếm%20trên%20BST.md)
 - [Chèn thêm phần tử vào cây BST](./1/1.1/Chèn%20thêm%20phần%20tử%20vào%20cây%20BST.md)
 - [Xoá phần tử cây BST trên mảng](./1/1.1/Xoá%20phần%20tử%20cây%20BST%20trên%20mảng.md)
@@ -40,3 +41,4 @@
 - [Tìm phần tử trong dãy 2](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%202.md)
 - [Tìm phần tử trong dãy 3](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%203.md)
 - [Tìm kiếm](./1/1.1/Tìm%20kiếm.md)
+
