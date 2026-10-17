@@ -37,8 +37,9 @@
 
 
 ### Tìm kiếm và Sắp xếp (Search)
+- [Tìm kiếm](./1/1.1/Tìm%20kiếm.md)
 - [Tìm phần tử trong dãy 1](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%201.md)
 - [Tìm phần tử trong dãy 2](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%202.md)
 - [Tìm phần tử trong dãy 3](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%203.md)
-- [Tìm kiếm](./1/1.1/Tìm%20kiếm.md)
+
 
