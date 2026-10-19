@@ -42,4 +42,12 @@
 - [Tìm phần tử trong dãy 2](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%202.md)
 - [Tìm phần tử trong dãy 3](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%203.md)
 
-
+### Tổng hợp bài thiếu nhi(Basic)
+- [Mảng - PT Dương](./1/1.1/PT%20Dương%20-%20mảng.md)
+- [Mảng - PT Max](./1/1.1/PT%20Max%20-%20mảng.md)
+- [Mảng - PT chẵn](./1/1.1/PT%20chẵn%20-%20mảng.md)
+- [Mảng - TBC ko âm](./1/1.1/TBC%20ko%20âm%20-%20mảng.md)
+- [Mảng - Thêm phần tử](./1/1.1/Thêm%20phần%20tử%20-%20Mảng.md)
+- [Mảng - Xóa phần tử](./1/1.1/Xóa%20phần%20tử%20-%20Mảng.md)
+- [Mảng - Đảo ngược ds](./1/1.1/Đảo%20ngược%20ds%20-%20mảng.md)
+- [Mảng - Đếm số lần suất hiện](./1/1.1/Đếm%20số%20lần%20suất%20hiện%20-%20Mảng.md)
