@@ -42,6 +42,10 @@
 - [Tìm phần tử trong dãy 2](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%202.md)
 - [Tìm phần tử trong dãy 3](./1/1.1/Tìm%20phần%20tử%20trong%20dãy%203.md)
 
+### Sắp xếp  (Sort)
+- [Quick Sort - Tìm 3 số lớn nhất](./1/1.1/Quick%20Sort%20-%20Tìm%203%20số%20lớn%20nhất)
+- [Quick Sort - sắp xếp](./1/1.1/Quick%20Sort-sắp%20xếp.md)
+
 ### Tổng hợp bài thiếu nhi(Basic)
 - [Mảng - PT Dương](./1/1.1/PT%20Dương%20-%20mảng.md)
 - [Mảng - PT Max](./1/1.1/PT%20Max%20-%20mảng.md)
