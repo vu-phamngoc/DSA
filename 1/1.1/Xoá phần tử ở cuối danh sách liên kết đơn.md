@@ -22,7 +22,6 @@ struct Node* deleteEnd(struct Node* head) {
         tmp = tmp->next;
     }
 
-    free(tmp->next);
     tmp->next = NULL;
     return head;
 }
