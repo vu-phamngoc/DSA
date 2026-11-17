@@ -1,42 +1,52 @@
 # Queue
 ```
 #include <stdio.h>
-
+#define max 500
 int main() {
-    int so_hanh_dong;
-    scanf("%d", &so_hanh_dong);
-
-    int hang_doi[1000];
-    int dau = 0, cuoi = -1, so_phan_tu = 0;
-
-    for (int i = 0; i < so_hanh_dong; i++) {
-        int loai;
-        scanf("%d", &loai);
-
-        if (loai == 1) {
-            if (so_phan_tu > 0) {
-                dau++;
-                so_phan_tu--;
+    int n , u , type;
+    int a[max];
+    int l =0 , r = -1 , count = 0;
+    scanf("%d" , &n);
+    for(int i = 0 ; i<n ; i++){
+        scanf("%d" , &type);
+        
+        if(type ==1 ){
+            if(count >0){
+                if(l == max -1){
+                    l = 0;
+                }
+                else {
+                    l++;
+                }
+                count--;
             }
-        } else if (loai == 2) {
-            int gia_tri;
-            scanf("%d", &gia_tri);
-            if (so_phan_tu < 1000) {
-                cuoi++;
-                hang_doi[cuoi] = gia_tri;
-                so_phan_tu++;
+        }
+        if(type ==2 ){
+            scanf("%d" , &u);
+            if(count <  max){
+                if(r == max -1 ){
+                    r = 0;
+                }
+                else{
+                    r++;
+                }
+                a[r]=u;
+                count++;
             }
         }
     }
-
-    while (so_phan_tu > 0) {
-        printf("%d", hang_doi[dau]);
-        dau++;
-        so_phan_tu--;
-        if (so_phan_tu > 0) printf(" ");
+    while(count>0){
+        printf("%d " ,a[l]);
+        if(l == max-1){
+            l=0;
+        }
+        else{
+            l++;
+        }
+        count--;
     }
-
     return 0;
 }
+
 
 ```
