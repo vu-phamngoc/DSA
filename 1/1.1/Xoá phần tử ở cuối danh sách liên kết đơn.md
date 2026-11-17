@@ -17,11 +17,6 @@ struct Node* addToFront(struct Node* head, int value) {
 struct Node* deleteEnd(struct Node* head) {
     if (head == NULL) return NULL;
 
-    if (head->next == NULL) {
-        free(head);
-        return NULL;
-    }
-
     struct Node* tmp = head;
     while (tmp->next->next != NULL) {
         tmp = tmp->next;
