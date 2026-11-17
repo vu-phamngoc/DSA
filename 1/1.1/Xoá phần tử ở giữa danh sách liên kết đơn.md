@@ -21,7 +21,6 @@ struct Node* deleteAfter(struct Node* head, int b) {
         if (tmp->data == b && tmp->next != NULL) {
             struct Node* temp = tmp->next;
             tmp->next = temp->next;
-            free(temp);
             return head;
         }
         tmp = tmp->next;
